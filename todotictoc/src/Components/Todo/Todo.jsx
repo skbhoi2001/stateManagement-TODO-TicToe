@@ -2,6 +2,7 @@ import { useState } from "react";
 import style from "./Toggle.module.css";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
+import { v4 as uuid } from "uuid";
 
 export default function Todo(){
 
@@ -9,7 +10,7 @@ export default function Todo(){
     
     const  handleTaskCreate = (title)=>{
         const payload={
-            id: todos.length+1,
+            id: uuid(),
             title: title,
             status: "false"
         }

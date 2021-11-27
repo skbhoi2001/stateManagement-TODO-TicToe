@@ -3,7 +3,8 @@ const TodoList = ({id,status,title,handleDelete,handleToggle})=>{
     if(status==="true")
     {
         var Style = {
-            textDecoration:"line-through"          
+            textDecoration:"line-through"    ,
+            color:"green"      
         }
     }
 
