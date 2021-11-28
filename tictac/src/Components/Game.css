@@ -33,3 +33,17 @@ body {
   .square:active {
     background-color: #64f4c4;
   }
+  .btnRestart{
+    background-color: yellow;
+    color: black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+  }
+  .btnArea{
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+  }

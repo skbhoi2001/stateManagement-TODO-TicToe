@@ -88,6 +88,9 @@ function Tictac(){
                     <Square value={board[8]} chooseSquare={()=>{chooseSquare(8)}}/>
                 </div>
             </div>
+            <div className="btnArea">
+            <button className="btnRestart" onClick={restartGame}>Restart</button>
+            </div>
         </div>
     )
 }
